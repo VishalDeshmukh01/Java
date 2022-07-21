@@ -16,7 +16,7 @@
 
 	    @Override
 	    public boolean withdraw(double amount) {
-	        if ((balance - amount) > minimumBalance) {
+	        if ((balance - amount) >= minimumBalance) {
 	            balance = balance - amount;
 
 	            return true;
