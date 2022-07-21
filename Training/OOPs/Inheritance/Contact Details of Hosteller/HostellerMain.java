@@ -2,39 +2,39 @@ import java.util.*;
 public class HostellerMain {
 	
 	public static Hosteller getHostellerDetails(){
-		Scanner sc = new Scanner(System.in);
-		Hosteller h1 = new Hosteller();  
-        System.out.println("Enter the Details:");
-        System.out.println("Student Id");
-        int id = sc.nextInt();
-        h1.setStudentId(id);
-        
-        System.out.println("Student Name");
-        String name = sc.next();
-        h1.setName(name);
-        
-        System.out.println("Department Id");
-        int department = sc.nextInt();
-        h1.setDepartmentId(department);
-        
-        System.out.println("Gender");
-        String gender = sc.next();
-        h1.setGender(gender);
-        
-        System.out.println("Phone Number");
-        String phNo = sc.next();
-        h1.setPhone(phNo);
-        
-        System.out.println("Hostel Name");
-        String hostel = sc.next();
-        h1.setHostelName(hostel);
-        
-        System.out.println("Room Number");
-        int room = sc.nextInt();
-        h1.setRoomNo(room);
-        sc.close();
-        
-        return h1;
+			Scanner sc = new Scanner(System.in);
+			Hosteller h1 = new Hosteller();  
+			System.out.println("Enter the Details:");
+			System.out.println("Student Id");
+			int id = sc.nextInt();
+			h1.setStudentId(id);
+
+			System.out.println("Student Name");
+			String name = sc.next();
+			h1.setName(name);
+
+			System.out.println("Department Id");
+			int department = sc.nextInt();
+			h1.setDepartmentId(department);
+
+			System.out.println("Gender");
+			String gender = sc.next();
+			h1.setGender(gender);
+
+			System.out.println("Phone Number");
+			String phNo = sc.next();
+			h1.setPhone(phNo);
+
+			System.out.println("Hostel Name");
+			String hostel = sc.next();
+			h1.setHostelName(hostel);
+
+			System.out.println("Room Number");
+			int room = sc.nextInt();
+			h1.setRoomNo(room);
+			sc.close();
+
+			return h1;
 	}
 
 	public static void main(String[] args) {
